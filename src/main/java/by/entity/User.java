@@ -21,7 +21,7 @@ public class User implements Comparable<User>{
     private int id;
     private String firstName;
     private String lastName;
-    @Email @NotEmpty
+    @NotEmpty
     private String username;
     private String password;
     @Transient
